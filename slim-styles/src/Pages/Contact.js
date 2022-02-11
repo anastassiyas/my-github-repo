@@ -4,6 +4,15 @@ import Navbar from "../components/Navbar/index";
 import Bootstrap from "../components/Bootstrap/index";
 import Form from "../components/Form/index";
 import List from "../components/List";
+// import Scheduler from "../components/Scheduler"
+
+
+
+
+
+
+
+
 
 const service = [
     {
