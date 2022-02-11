@@ -1,0 +1,56 @@
+[
+    {
+"id":1,
+"name":"Style",
+"image":"",
+"price":"$30-$50",
+"rating":""
+
+    },
+    {
+        "id":2,
+        "name":"Style",
+        "image":"",
+        "price":"$50",
+        "rating":""
+
+
+    },
+    {
+        "id":2,
+        "name":"Style",
+        "image":"",
+        "price":"$50",
+        "rating":""
+
+
+    },
+    {
+        "id":2,
+        "name":"Style",
+        "image":"",
+        "price":"$50",
+        "rating":""
+
+
+    },
+    {
+        "id":2,
+        "name":"Style",
+        "image":"",
+        "price":"$50",
+        "rating":""
+
+
+    },
+    {
+        "id":2,
+        "name":"Style",
+        "image":"",
+        "price":"$50",
+        "rating":""
+
+
+    }
+
+]

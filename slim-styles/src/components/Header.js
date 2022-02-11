@@ -27,9 +27,9 @@ return (
     <h1 style= {{color: "red", fontSize: "20px", fonFamily: "cursive" }}>Welcome</h1>  
     <h2 style={styles.headingStyle}>Styles by Slim</h2>
    
-    <a href="#">Click Me</a>
-    <a href="#">Click Me</a>
-    <a href="#">Click Me</a>
+    <a href="#"></a>
+    <a href="#"></a>
+    <a href="#"></a>
     </div> 
 
 
