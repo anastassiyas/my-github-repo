@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowRightIcon } from "@heroicons/react/solid";
 
 
-export default function Navnpar() {
+function Navbar() {
   return (
     <header className="bg-gray-400 md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -26,3 +26,5 @@ export default function Navnpar() {
     </header>
   );
 }
+
+export default Navbar

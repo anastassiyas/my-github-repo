@@ -4,7 +4,7 @@ import { CodeIcon } from "@heroicons/react/solid";
 
 import { projects } from "../data";
 
-export default function Projects() {
+ function Projects() {
   return (
     <section id="projects" className="text-blue-400 bg-gray-600 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -46,5 +46,5 @@ export default function Projects() {
     </section>
   );
 }
-
+export default Projects
 

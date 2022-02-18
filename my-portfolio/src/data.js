@@ -3,15 +3,15 @@ export const projects = [
       title: "Kanie-Kandies",
       subtitle: "HTML, CSS, JS",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "CBD for pets can be used for a variety of issues: anxiety, arthritis, seizures, and chronic pain.",
       image: "./Kanie.png",
-      link: "https://github.com/anastassiyas/Kanie-Kandies",
+      link: "https://anastassiyas.github.io/Kanie-Kandies/",
     },
     {
       title: "Christmas-Countdown-Page",
       subtitle: "HTML, CSS, JS",
       description:
-        "A countdown timer counting down till christmas second by second:",
+        "How many days until Christmas 2021? A countdown timer counting down till christmas second by second:",
       image: "./Christmas.png",
       link: "https://anastassiyas.github.io/Christmas-Countdown-Page/",
     },
@@ -27,7 +27,7 @@ export const projects = [
       title: "Computer-Info-System-Blog",
       subtitle: "HTML, CSS, JS",
       description:
-        "This blog is about the IT world. It shares a vast amount of information on different Information Technology topics which include mobile, software, security, Internet and much more.It provides knowledge about the latest Internet threats, hacking and also shares information on different aspects of data security.",
+        "This blog is about the IT world. It shares an Information Technology topics which include mobile, software, security, Internet and much more.It provides knowledge about the latest Internet threats, hacking and an information data security.",
       image: "./blog.png",
       link: "https://anastassiyas.github.io/Computer-Info-System-Blog/",
     },
@@ -55,7 +55,7 @@ export const projects = [
     "React",
     "Next.js",
     "Node",
-    "GraphQL",
-    "Material UI",
+    "SQL",
+    "API",
   ];
   
