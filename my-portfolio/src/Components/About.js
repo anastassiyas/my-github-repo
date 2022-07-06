@@ -1,42 +1,63 @@
 import React from 'react';
+import {about} from "../data";
+
 function About() {
   return (
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-cyan-600">
-            Hi, I'm Anastassiya.
-            <br className="hidden lg:inline-block" />I am a Full stack web developer.<br />
-             I give life to designs. <br />I love to build amazing apps.
-          </h1>
-          <p className="mb-8 leading-relaxed">
-            Creating Beautiful things with quality and elegance! <br />
-            My favourite technology is ReactJS.
+        <br />
+          <h1 className="title-font  italic  sm:text-4xl text-3xl mb-4 font-medium text-cyan-600">
+            Hi, my name is Anastassiya.</h1>
+            <br className=" hidden lg:inline-block " />I am a Full stack web developer based in Denver, Co, US.<br />
+            <br />
+             
+          
+          <p className="font-mono mb-8 leading-relaxed">
+          I have knowledge and experience in designing, developing and<br />
+          implementing applications and solutions using various technologies and programming languages.<br />
+          I strive to use my development experience and apply hands-on technical expertise in a  role as a Full-stack Developer.
+          <br />
+          <br />
           </p>
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-yellow-600 bg-yellow-200 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 text-yellow-200 rounded text-lg">
+              className=" inline-flex text-gray-200 bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 text-gray-200 rounded text-lg">
+
               Work With Me
             </a>
             <a
-              href="#projects"
-              className="ml-4 inline-flex text-yellow-400 bg-blue-600 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-200 hover:text-blue-600 rounded text-lg">
-              See My Past Work
+              href="./resume.png" target="_blank" rel="noreferrer"
+              className="ml-4 inline-flex text-gray-200 bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 hover:text-gray-200 rounded text-lg"> 
+           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download"
+        class="w-3 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <path fill="currentColor"
+          d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z">
+        </path>
+      </svg>
+      
+     
+             Download CV
+             
             </a>
+            
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        {/* img class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src="/img/erin-lindford.jpg" alt="Woman's Face"> */}
+        
           <img
-            className="block mx-auto h-96 rounded-full sm:mx-5 sm:shrink-5 border-8 border-yellow-200" alt="my face"
+            className="block mx-auto h-96 rounded-full sm:mx-5 sm:shrink-5 border-8 border-green-500" alt="my face"
             src="./portfolio.png"
           />
+         
         </div>
       </div>
+      
     </section>
   );
 }
+
 export default About;
 
 
