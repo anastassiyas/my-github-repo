@@ -24,7 +24,7 @@ export const projects = [
       title: "Makg_entertainment",
       subtitle: "HTML, CSS, JS, NodeJS, Express JS, Nodemailer JS" ,   
       description:
-      "This site is about the musician Michael Makanjuola. Our purpose is to make his name known and popularized. Here Mak G can tell their loyal fans even more about themselves, their services, provide full information and list their upcoming concerts.",
+      "This site is about the musician Michael Makanjuola. The purpose is to make his name known and popularized. Here Mak G can tell their loyal fans even more about themselves, their services, provide full information and list their upcoming concerts.",
       image: "./mak_g.png",
       github: "https://github.com/anastassiyas/makg_entertainment",
       link: "https://fierce-lowlands-21244.herokuapp.com/",
