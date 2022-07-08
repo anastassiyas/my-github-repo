@@ -8,10 +8,10 @@ function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <br />
           <h1 className="title-font  italic  sm:text-4xl text-3xl mb-4 font-medium text-cyan-600">
-            Hi, my name is Anastassiya.</h1>
+            Hi, my name is Anastassiya</h1>
             <br />
             <div className="flex flex-col justify-center items-center bg-cover bg-clip-text bg-center uppercase text-transparent text-xl sm:text-2xl font-extrabold tracking-wide antialiased" style={{ backgroundImage: "url(https://media.giphy.com/media/2HwWFR7TEr8aJS1uQt/source.gif)" }}>
-            I am a Full stack web developer based in Denver, Co, US
+            I am a Full stack web developer <br /> based in Denver, Co, US
       </div>
       <br />
             
@@ -26,14 +26,14 @@ function About() {
           </p>
           <div className="flex justify-center">
             <a
-              href="#contact"
-              className=" inline-flex text-gray-200 bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 text-gray-200 rounded text-lg">
+              href="#projects"
+              className=" inline-flex text-gray-200 bg-gradient-to-br from-green-500 to-blue-500 hover:from-green-400 hover:to-blue-400 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 text-gray-200 rounded text-lg">
 
-              Work With Me
+              Recent Works
             </a>
             <a
               href="./resume.png" target="_blank" rel="noreferrer"
-              className="ml-4 inline-flex text-gray-200 bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 hover:text-gray-200 rounded text-lg"> 
+              className="ml-4 inline-flex text-gray-200 bg-gradient-to-br from-green-500 to-red-500 hover:from-green-400 hover:to-blue-400 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 hover:text-gray-200 rounded text-lg"> 
            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download"
         class="w-3 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
         <path fill="currentColor"
@@ -41,7 +41,6 @@ function About() {
         </path>
       </svg>
       
-     
              Download CV
              
             </a>
