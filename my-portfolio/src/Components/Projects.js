@@ -31,11 +31,11 @@ import { projects } from "../data";
             {/* ::Details */}
             <div className="mt-2 px-2 w-full flex flex-col space-y-1">
               {/* :::name */}
-              <p className="text-xl text-white text-opacity-80 font-semibold tracking-wide group-hover:text-opacity-100">{project.title}</p>
+              <p className="text-xl text-green-300 text-opacity-80 font-semibold tracking-wide group-hover:text-opacity-100">{project.title}</p>
            
               <p className="flex items-center">
               
-                <span className="text-xs text-white text-opacity-40 font-bold tracking-wide">{project.subtitle}</span>
+                <span className="text-xs text-red-500 text-opacity-80 font-bold tracking-wide">{project.subtitle}</span>
               </p>
               {/* :::bid infos */}
               <span className="flex justify-between items-center">
@@ -44,7 +44,7 @@ import { projects } from "../data";
               </span>
              
         
-              <a href={project.github} className="relative inline-flex  px-2.5 py-1.5 rounded-full bg-gradient-to-t from-pink-600 to-pink-200 text-xs text-white font-bold tracking-wide hover:to-pink-600">Github</a>
+              <a href={project.github} className="w-16 rounded-full flex-shrink-0 object-cover object-center relative px-3 py-1.5 rounded-full bg-gradient-to-t from-pink-600 to-pink-200 text-xs text-gray-200 font-bold tracking-wide hover:to-pink-600">Github</a>
             </div>
           </a>
         ))

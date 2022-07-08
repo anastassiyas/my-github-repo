@@ -21,14 +21,15 @@ export const projects = [
     },
     {
       id: 3 ,
-      title: "Makg_entertainment",
-      subtitle: "HTML, CSS, JS, NodeJS, Express JS, Nodemailer JS" ,   
+      title: "Book App",
+      subtitle: "HTML, CSS, ExpressJS, NodeJS, MySQL",
       description:
-      "This site is about the musician Michael Makanjuola. The purpose is to make his name known and popularized. Here Mak G can tell their loyal fans even more about themselves, their services, provide full information and list their upcoming concerts.",
-      image: "./mak_g.png",
-      github: "https://github.com/anastassiyas/makg_entertainment",
-      link: "https://fierce-lowlands-21244.herokuapp.com/",
+        "CRUD application in Node.js with MySQL. The books table and implemented CRUD for the books table. ",
+      image: "./book.png",
+      github: "",
+      link: "https://obscure-peak-64646.herokuapp.com/",
     },
+   
     
     {
       id: 4 ,
@@ -55,20 +56,20 @@ export const projects = [
       title: "The Republic of Kazakhstan",
       subtitle: "HTML, CSS",
       description:
-        "To interest and instill a respectful attitude towards the culture of other countries. Respect and interest in other peoples. Target Audience: Curious people who want to gain new knowledge. People who like to organize their travels on their own. Travel agencies.",
+        "To interest and instill a respectful attitude towards the culture of other countries. Respect and interest in other peoples. Target Audience: Curious people who want to gain new knowledge. People who like to organize their travels on their own. Also for travel agencies.",
       image: "./country.png",
       github: "https://github.com/anastassiyas/FINAL-PROJECT",
       link: "https://anastassiyas.github.io/FINAL-PROJECT/",
     },
     {
       id: 7 ,
-      title: "Book App",
-      subtitle: "HTML, CSS, ExpressJS, NodeJS, MySQL",
+      title: "Makg_entertainment",
+      subtitle: "HTML, CSS, JS, NodeJS, Express JS, Nodemailer JS" ,   
       description:
-        "In this site, I built a CRUD application in Node.js with Express.js and MySQL. I created a books table and implemented CRUD for the books table. ",
-      image: "./book.png",
-      github: "",
-      link: "https://obscure-peak-64646.herokuapp.com/",
+      "This site is about the musician Michael Makanjuola. The purpose is to make his name known and popularized. Here Mak G can tell their loyal fans even more about themselves, their services, provide full information and list their upcoming concerts.",
+      image: "./mak_g.png",
+      github: "https://github.com/anastassiyas/makg_entertainment",
+      link: "https://fierce-lowlands-21244.herokuapp.com/",
     },
     {
       id: 8 ,
@@ -85,7 +86,7 @@ export const projects = [
       title: "Database blog",
       subtitle: "HTML, CSS",
       description:
-        "This blog shares a vast amount of information on different Information Technology topics which include mobile, software, security, Internet and much more.It provides knowledge about the latest Internet threats, hacking and also shares information on different aspects of data security.",
+        "This blog shares a vast amount of information on different Information Technology topics which include mobile, software, security, Internet and much more.It provides knowledge about the latest Internet threats, hacking and also shares information on different aspects of data security. This blog will cover issues regarding database management and DBMSes, database administration.",
       image: "./readme.png",
       github: "https://github.com/anastassiyas/Database-blog",
       link: "https://anastassiyas.github.io/Database-blog/",

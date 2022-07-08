@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Contact() {
+  
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-20 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -40,6 +41,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
+
         <form
           netlify
           name="contact"
