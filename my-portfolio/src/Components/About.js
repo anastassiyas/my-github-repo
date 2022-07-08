@@ -9,8 +9,12 @@ function About() {
         <br />
           <h1 className="title-font  italic  sm:text-4xl text-3xl mb-4 font-medium text-cyan-600">
             Hi, my name is Anastassiya.</h1>
-            <br className=" hidden lg:inline-block " />I am a Full stack web developer based in Denver, Co, US.<br />
             <br />
+            <div className="flex flex-col justify-center items-center bg-cover bg-clip-text bg-center uppercase text-transparent text-xl sm:text-2xl font-extrabold tracking-wide antialiased" style={{ backgroundImage: "url(https://media.giphy.com/media/2HwWFR7TEr8aJS1uQt/source.gif)" }}>
+            I am a Full stack web developer based in Denver, Co, US
+      </div>
+      <br />
+            
              
           
           <p className="font-mono mb-8 leading-relaxed">
@@ -44,14 +48,19 @@ function About() {
             
           </div>
         </div>
+        <span className="relative inline-block rounded-full" aria-label="avatar">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
         
           <img
             className="block mx-auto h-96 rounded-full sm:mx-5 sm:shrink-5 border-8 border-green-500" alt="my face"
             src="./portfolio.png"
           />
-         
+          <span className="absolute bottom-12 right-16 w-6 h-6 rounded-full bg-green-500 ring-2 ring-gray-50" />
+        <span className="absolute bottom-12 right-16 w-6 h-6 rounded-full bg-green-500 animate-ping" />
+      
+    
         </div>
+        </span>
       </div>
       
     </section>

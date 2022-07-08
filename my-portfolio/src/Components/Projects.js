@@ -6,6 +6,21 @@ import { projects } from "../data";
 
  function Projects() {
   return (
+    // <div className="py-12">
+		// 	<sectionTitle id="projects">Recent Works</SectionTitle>
+		// 	<div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+		// 		{projectss.map(project => (
+		// 			<WorkItem
+		// 				key={project.title}
+		// 				imgUrl={project.img}
+		// 				title={project.title}
+		// 				subtitle={project.subtitle}
+    //         description={project.discription}
+		// 				link={project.link}
+		// 			/>
+		// 		))}
+		// 	</div>
+		// </div>
     <section id="projects" className="text-gray-200 bg-red-500 body-font">
       <div className="container px-3 py-20 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-7">
@@ -19,14 +34,32 @@ import { projects } from "../data";
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-2 border-2 border-gray-200">
+              className="sm:w-1/2 w-100 p-2 rounded-lg">
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="absolute w-full h-full inset-x-0 top-0 object-cover object-center rounded-lg "
                   src={project.image}
+                  
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-green-500 bg-green-200 opacity-0 hover:opacity-100">
+                <img
+                  alt="cradle"
+                  className=" content:''; 
+                  background-size: contain;
+                  bottom: 1%;
+                  
+                 
+                  left: -6.5%;
+                 
+                  right: -6.5%;
+                 
+                  z-index: 1;
+                  
+                     absolute inset-x-0 bottom-0 w-full h-10 object-cover  "
+                  src={project.cradle}
+                  
+                />
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-green-500  bg-green-200 opacity-0 hover:opacity-100 rounded-lg">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>

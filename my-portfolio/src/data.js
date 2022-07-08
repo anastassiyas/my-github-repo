@@ -5,6 +5,7 @@ export const projects = [
       description:
         "CBD for pets can be used for a variety of issues: anxiety, arthritis, seizures, and chronic pain.",
       image: "./Kanie.png",
+      cradle: "./cradle.png",
       link: "https://anastassiyas.github.io/Kanie-Kandies/",
     },
     {
@@ -13,6 +14,7 @@ export const projects = [
       description:
         "How many days until Christmas 2022? A countdown timer counting down till christmas second by second:",
       image: "./Christmas.png",
+      cradle: "./cradle.png",
       link: "https://anastassiyas.github.io/Christmas-Countdown-Page/",
     },
     {
@@ -21,6 +23,7 @@ export const projects = [
       description:
       "This site is about the musician Michael Makanjuola. Our purpose is to make his name known and popularized. Here Mak G can tell their loyal fans even more about themselves, their services, provide full information and list their upcoming concerts.",
       image: "./mak_g.png",
+      cradle: "./cradle.png",
       link: "https://fierce-lowlands-21244.herokuapp.com/",
     },
     
@@ -30,6 +33,7 @@ export const projects = [
       description:
         "Style by slim was created at the request of a client. Its purpose is to tell what this business does and what is special about your salon offerings. This site is a self-contained space where the client can interact closely with her customers.  ",
       image: "./style.png",
+      cradle: "./cradle.png",
       link: "https://anastassiyas.github.io/styles-by-slim/",
     },
     {
@@ -38,6 +42,7 @@ export const projects = [
       description:
         "This blog is about the IT world. It shares an Information Technology topics which include mobile, software, security, Internet and much more.It provides knowledge about the latest Internet threats, hacking and an information data security.",
       image: "./blog.png",
+      cradle: "./cradle.png",
       link: "https://anastassiyas.github.io/Computer-Info-System-Blog/",
     },
     {
@@ -46,6 +51,7 @@ export const projects = [
       description:
         "To interest and instill a respectful attitude towards the culture of other countries. Respect and interest in other peoples. Target Audience: Curious people who want to gain new knowledge. People who like to organize their travels on their own. Travel agencies.",
       image: "./country.png",
+      cradle: "./cradle.png",
       link: "https://anastassiyas.github.io/FINAL-PROJECT/",
     },
     {
@@ -54,6 +60,7 @@ export const projects = [
       description:
         "In this site, I built a CRUD application in Node.js with Express.js and MySQL. I created a books table and implemented CRUD for the books table. ",
       image: "./book.png",
+      cradle: "./cradle.png",
       link: "https://anastassiyas.github.io/styles-by-slim/",
     },
     {
@@ -62,6 +69,7 @@ export const projects = [
       description:
         "In this project, I created a basic CRUD (Create Read Update Delete) application using Node.js. I used Express.js for routing and MariaDB to store our data.",
       image: "./movie.png",
+      cradle: "./cradle.png",
       link: "https://shrouded-harbor-53399.herokuapp.com/",
     },
   ];
